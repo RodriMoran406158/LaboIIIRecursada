@@ -1,0 +1,150 @@
+Biblioteca: Provee una amplia gama de funcionalidades para programadores.
+JDB: Depurador de Java.
+Java Compiler: El compilador de Java.
+Java Virtual Machine: Responsable de ejecutar el bytecode generado por el compilador Java.
+JConsole: Monitor de comandos.
+
+Archivos
+Archivos de código fuente llevan el sufijo ".java"
+Archivos de bytecode llevan el sufijo ".class"
+
+
+
+Variables / Métodos / Clases / Constructores
+Nombres de las variables y métodos deben comenzar con una letra.
+
+Seguido de letras, números o guiones bajos.
+
+No pueden ser palabras reservadas en Java.
+
+Los nombres de las clases deben comenzar con una letra mayúscula.
+
+
+
+Símbolos de Puntuación
+Cada instrucción debe finalizar con ; (símbolo de punto y coma).
+
+Las estructuras de control (condicionales y repetitivas) no requieren punto y coma porque poseen un bloque delimitado por llaves {}.
+
+
+Mayúsculas y minúsculas
+Distingue entre mayúsculas y minúsculas ("MyVariable" vs "myvariable").
+
+Comentarios
+Los comentarios se escriben utilizando // para una línea.
+
+Los comentarios se escriben utilizando /* */ para varias líneas.
+
+
+Naming Conventions
+Los nombres de los métodos y las variables deben comenzar con una letra minúscula y seguir el estilo CamelCase.
+
+Los nombres de las constantes deben escribirse en mayúsculas y separar las palabras con guiones bajos.
+
+
+
+Indentación
+Cuando se indica un bloque, todo su contenido debería escribirse con mayor indentación o sangría.
+
+Más convenciones en:
+https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+
+
+
+Tipos de Datos - Primitivos
+
+Tipo	   Descripción
+byte	   Representa valores enteros de 8 bits. Su rango va desde -128 a 127.
+short	   Representa valores enteros de 16 bits. Su rango va desde -32,768 a 32,767.
+int	   Valores enteros de 32 bits. Su rango va desde -2,147,483,648 a 2,147,483,647.
+long	   Valores enteros de 64 bits. Va desde -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807.
+float	   Representa valores de punto flotante (decimales) de 32 bits.
+double	   Representa valores de punto flotante (decimales) de 64 bits.
+char	   Representa un solo carácter Unicode de 16 bits.
+boolean	   Representa valores verdadero/falso (true/false).
+
+
+
+String referencia que representa una secuencia de caracteres. Se utiliza para almacenar texto y se implementa como una clase en Java.
+
+Se crean utilizando comillas dobles.
+
+Son inmutables, lo que significa que una vez creadas, no se pueden modificar.
+
+Longitud máxima de 2^31-1 caracteres.
+
+Se comparan utilizando el método equals().
+
+String Pool es un área especial de la memoria en Java donde se almacenan las cadenas String creadas en una aplicación.
+
+
+
+Operadores
+Los operadores en Java son símbolos que realizan una operación sobre uno o más operandos para producir un resultado.
+
+Aritméticos
+Suma (+)
+
+Resta (-)
+
+Multiplicación (*)
+
+División (/)
+
+Módulo (%)
+
+Comparación
+Igual que (==)
+
+Distinto de (!=)
+
+Mayor que (>)
+
+Mayor o igual que (>=)
+
+Menor que (<)
+
+Menor o igual que (<=)
+
+Incremento y decremento
+Incremento (++)
+
+Pre Incremento (++variable)
+
+Post Incremento (variable++)
+
+Decremento (--)
+
+Pre Decremento (--variable)
+
+Post Decremento (variable--)
+
+Asignación
+Asignación simple (=)
+
+Asignación de suma (+=)
+
+Asignación de resta (-=)
+
+Asignación de multiplicación (*=)
+
+Asignación de división (/=)
+
+Asignación de módulo (%=)
+
+Lógicos
+AND lógico (&&)
+
+OR lógico (||)
+
+Negación lógica (!)
+
+Ternario
+expresión booleana ? si verdadero : si falso;
+
+
+Scanner scanner = new Scanner(System.in);
+tipoDato variable = scanner.nextXXX();
+
+
+
