@@ -140,5 +140,6 @@ public class Ejercicios {
     public void ejercicio8(){
 //        8. Ingresar 10 números por teclado, informar su suma y promedio.
         System.out.println();
+        int i = 0;
     }
 }
